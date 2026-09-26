@@ -1,3 +1,5 @@
+<img src="assets/banner.svg" alt="fastfetch de atoslins@omarchy: Omarchy · Arch Linux, Hyprland, Araraquara SP. Linux desktop tools, Claude Code plugins, automation." width="100%">
+
 # Atos Lins
 
 Developer from Araraquara, Brazil. I build tools for the Linux desktop
@@ -25,6 +27,14 @@ Definition of Done as an executable barrier for Claude Code. Hooks and
 read-only reviewer agents stop the agent from declaring a task done while
 stubs, skipped tests or unproven claims remain.
 <br><sub>Definição de pronto como barreira executável: o agente não declara a tarefa concluída com código pela metade.</sub>
+
+### [metodo](https://github.com/atoslins/metodo)
+
+Claude Code plugin against the three ways coding agents fail to persevere:
+giving up at the first obstacle, settling on a solution too early, and
+delivering half the job. Three protocols, a ledger of open gaps and two
+program-checked gates.
+<br><sub>Plugin do Claude Code contra as três falhas de perseverança de agentes: desistir no primeiro obstáculo, fechar a solução cedo e entregar pela metade.</sub>
 
 ### [WhatsApp for Omarchy](https://github.com/atoslins/Omarchy-WhatsApp-v2)
 
