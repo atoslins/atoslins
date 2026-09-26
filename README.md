@@ -38,10 +38,13 @@ program-checked gates.
 
 ### [WhatsApp for Omarchy](https://github.com/atoslins/Omarchy-WhatsApp-v2)
 
-Local-first WhatsApp client for the Omarchy desktop, built on Quickshell.
-Fork of [MoizIbnYousaf/Omarchy-Whatsapp](https://github.com/MoizIbnYousaf/Omarchy-Whatsapp)
-with fixes, a full restyle and an MCP server so agents can read and send messages.
-<br><sub>Cliente de WhatsApp para o Omarchy, com sincronização em segundo plano e servidor MCP.</sub>
+<a href="https://github.com/atoslins/Omarchy-WhatsApp-v2"><img src="https://raw.githubusercontent.com/atoslins/Omarchy-WhatsApp-v2/main/preview.png" alt="WhatsApp for Omarchy: the full app and the bar dropdown" width="640"></a>
+
+WhatsApp, native to the Omarchy shell. Not a browser tab. Opens instantly,
+works offline, replies from the bar, and ships an MCP server so agents can read
+and send messages. Built on [OmaWhatsApp](https://github.com/MoizIbnYousaf/Omarchy-Whatsapp)
+by MoizIbnYousaf; [v0.15.0](https://github.com/atoslins/Omarchy-WhatsApp-v2/releases/tag/v0.15.0) is out.
+<br><sub>WhatsApp nativo no Omarchy, sem aba de navegador: abre na hora, funciona offline e responde pela barra.</sub>
 
 ## Contributions · Contribuições
 
