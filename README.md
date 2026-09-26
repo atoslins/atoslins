@@ -10,6 +10,21 @@ automation behind a company's day-to-day operations.
 > Linux (Omarchy / Hyprland), plugins que mantêm agentes de IA honestos e a
 > automação do dia a dia de uma empresa.
 
+## Featured · Destaque
+
+### [WhatsApp for Omarchy](https://github.com/atoslins/Omarchy-WhatsApp-v2)
+
+<a href="https://github.com/atoslins/Omarchy-WhatsApp-v2"><img src="https://raw.githubusercontent.com/atoslins/Omarchy-WhatsApp-v2/main/preview.png" alt="WhatsApp for Omarchy: the full app and the bar dropdown" width="100%"></a>
+
+WhatsApp, native to the Omarchy shell. Not a browser tab. Opens instantly and
+works offline from a local mirror, replies from the bar, handles several
+accounts, and ships an MCP server so agents can read and send messages.
+Built on [OmaWhatsApp](https://github.com/MoizIbnYousaf/Omarchy-Whatsapp) by MoizIbnYousaf.
+
+[v0.15.0](https://github.com/atoslins/Omarchy-WhatsApp-v2/releases/tag/v0.15.0) is out ·
+[Submitted to the Omarchy plugin store](https://github.com/omacom/omarchy-plugin-marketplace/issues/8842)
+<br><sub>WhatsApp nativo no Omarchy, sem aba de navegador: abre na hora, funciona offline e responde pela barra.</sub>
+
 ## Projects · Projetos
 
 ### [DualSense for Omarchy](https://github.com/atoslins/omarchy-plugin-dualsense)
@@ -35,16 +50,6 @@ giving up at the first obstacle, settling on a solution too early, and
 delivering half the job. Three protocols, a ledger of open gaps and two
 program-checked gates.
 <br><sub>Plugin do Claude Code contra as três falhas de perseverança de agentes: desistir no primeiro obstáculo, fechar a solução cedo e entregar pela metade.</sub>
-
-### [WhatsApp for Omarchy](https://github.com/atoslins/Omarchy-WhatsApp-v2)
-
-<a href="https://github.com/atoslins/Omarchy-WhatsApp-v2"><img src="https://raw.githubusercontent.com/atoslins/Omarchy-WhatsApp-v2/main/preview.png" alt="WhatsApp for Omarchy: the full app and the bar dropdown" width="640"></a>
-
-WhatsApp, native to the Omarchy shell. Not a browser tab. Opens instantly,
-works offline, replies from the bar, and ships an MCP server so agents can read
-and send messages. Built on [OmaWhatsApp](https://github.com/MoizIbnYousaf/Omarchy-Whatsapp)
-by MoizIbnYousaf; [v0.15.0](https://github.com/atoslins/Omarchy-WhatsApp-v2/releases/tag/v0.15.0) is out.
-<br><sub>WhatsApp nativo no Omarchy, sem aba de navegador: abre na hora, funciona offline e responde pela barra.</sub>
 
 ## Contributions · Contribuições
 

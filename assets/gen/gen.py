@@ -391,7 +391,7 @@ def banner_fetch():
         [("home   ", key), ("Araraquara, SP · Brasil", C["fg"])],
         [("focus  ", key), ("Linux desktop tools · Claude Code plugins · automation", C["fg"])],
         [("langs  ", key), ("Python · TypeScript · PHP · Go · QML", C["fg"])],
-        [("ships  ", key), ("dualsense · dod-guard · metodo · whatsapp", C["fg"])],
+        [("ships  ", key), ("whatsapp · dualsense · dod-guard · metodo", C["fg"])],
         [("pt-br  ", key), ("Ferramentas para Linux, plugins para Claude Code e automação.", C["fg2"])],
     ]
     for i, segs in enumerate(rows):
