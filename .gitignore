@@ -1,2 +1,5 @@
 assets/gen/*.svg
 assets/gen/*.png
+avatar-*.png
+avatar-*.svg
+avatar-preview.html
