@@ -36,20 +36,25 @@ triggers, rumble, mic and speaker, plus a live input tester. USB-C and
 Bluetooth, no extra packages.
 <br><sub>O controle do PS5 na barra do Omarchy: bateria, luzes, gatilhos adaptativos e testador de botões.</sub>
 
+### [Método](https://github.com/atoslins/metodo)
+
+<a href="https://github.com/atoslins/metodo"><img src="https://raw.githubusercontent.com/atoslins/metodo/main/preview.png" alt="Método for Claude Code: the Stop hook stopping a delivery with a blocking gap open, and a gap closing only when its proof command exits 0" width="640"></a>
+
+Claude Code plugin against the three ways coding agents fail to persevere:
+giving up at the first obstacle, settling on a solution too early, and
+delivering half the job. Three protocols, a gap ledger whose items close only
+when a proof command exits 0, and a Stop gate. Measured with and without the
+plugin in `claude plugin eval`.
+
+[v1.0.0](https://github.com/atoslins/metodo/releases/tag/metodo--v1.0.0) is out
+<br><sub>Plugin do Claude Code contra as três falhas de perseverança de agentes: desistir no primeiro obstáculo, fechar a solução cedo e entregar pela metade.</sub>
+
 ### [DoD-Guard](https://github.com/atoslins/dod-guard)
 
 Definition of Done as an executable barrier for Claude Code. Hooks and
 read-only reviewer agents stop the agent from declaring a task done while
 stubs, skipped tests or unproven claims remain.
 <br><sub>Definição de pronto como barreira executável: o agente não declara a tarefa concluída com código pela metade.</sub>
-
-### [metodo](https://github.com/atoslins/metodo)
-
-Claude Code plugin against the three ways coding agents fail to persevere:
-giving up at the first obstacle, settling on a solution too early, and
-delivering half the job. Three protocols, a ledger of open gaps and two
-program-checked gates.
-<br><sub>Plugin do Claude Code contra as três falhas de perseverança de agentes: desistir no primeiro obstáculo, fechar a solução cedo e entregar pela metade.</sub>
 
 ## Contributions · Contribuições
 
