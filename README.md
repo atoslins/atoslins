@@ -25,6 +25,21 @@ Built on [OmaWhatsApp](https://github.com/MoizIbnYousaf/Omarchy-Whatsapp) by Moi
 [Submitted to the Omarchy plugin store](https://github.com/omacom/omarchy-plugin-marketplace/issues/8842)
 <br><sub>WhatsApp nativo no Omarchy, sem aba de navegador: abre na hora, funciona offline e responde pela barra.</sub>
 
+## Contributions · Contribuições
+
+### [Omarchy: Windows VM launch fix](https://github.com/omacom/omarchy/pull/12323)
+
+Merged into [omacom/omarchy](https://github.com/omacom/omarchy) by DHH.
+`omarchy windows vm launch` exited 1 with no output whenever `~/Windows` was
+setgid, which is how the Windows container itself leaves the folder after the
+first run. A numeric `chmod 0700` keeps setgid on directories, so the
+exact-mode check could never pass. The fix hardens with a symbolic mode, says
+which directory failed and why, and ships regression tests for both paths.
+Closes [#9334](https://github.com/omacom/omarchy/issues/9334).
+<br><sub>Correção aceita no Omarchy: a VM do Windows falhava em silêncio quando `~/Windows` tinha setgid. Mergeada pelo DHH, com testes de regressão.</sub>
+
+Also: [awesome-claude-code#46](https://github.com/jmanhype/awesome-claude-code/pull/46) and [awesome-claude-plugins#236](https://github.com/composio-community/awesome-claude-plugins/pull/236), DoD-Guard listing.
+
 ## Projects · Projetos
 
 ### [DualSense for Omarchy](https://github.com/atoslins/omarchy-plugin-dualsense)
@@ -55,11 +70,6 @@ Definition of Done as an executable barrier for Claude Code. Hooks and
 read-only reviewer agents stop the agent from declaring a task done while
 stubs, skipped tests or unproven claims remain.
 <br><sub>Definição de pronto como barreira executável: o agente não declara a tarefa concluída com código pela metade.</sub>
-
-## Contributions · Contribuições
-
-- [omacom/omarchy#12323](https://github.com/omacom/omarchy/pull/12323): clear setgid when hardening Windows VM directories
-- [awesome-claude-code#46](https://github.com/jmanhype/awesome-claude-code/pull/46) and [awesome-claude-plugins#236](https://github.com/composio-community/awesome-claude-plugins/pull/236): DoD-Guard listing
 
 ## Stack
 
